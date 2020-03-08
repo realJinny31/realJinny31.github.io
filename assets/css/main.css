@@ -146,7 +146,7 @@ samp {
 }
 
 code {
-  font-family: 'Nanum Gothic Coding', serif;
+  font-family: 'PT Mono', monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -451,7 +451,7 @@ template {
 .highlighter-rouge {
   color: #ce887b;
   font-weight: 400;
-  border: 1px solid #607D8B;
+  /* border: 1px solid #607D8B; */
   -webkit-border-radius: 3px;
           border-radius: 3px;
   padding: 0.1rem 0.5rem;
@@ -778,7 +778,7 @@ html {
 }
 
 body {
-  font-family: 'Nanum Gothic Coding', serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
   margin: 0;
@@ -974,7 +974,7 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'Nanum Gothic Coding', serif;
+  font-family: 'Noto Sans KR', sans-serif;
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
@@ -1167,7 +1167,7 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'Nanum Gothic Coding', serif;
+  font-family: 'Noto Sans KR', sans-serif;
   text-decoration: none;
   color: #263959;
   font-weight: 800;
