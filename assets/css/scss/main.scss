@@ -1,6 +1,7 @@
 @import 'normalize';
 @import 'syntax';
 @import 'variables';
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);//google web font added
 
 *, *::after, *::before {
   box-sizing: border-box;
@@ -11,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Nanum Gothic Coding', serif;
   color: $body-color;
   background-color: #fbfbfb;
   margin: 0;
