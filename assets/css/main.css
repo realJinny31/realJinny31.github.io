@@ -894,6 +894,7 @@ table tfoot td {
 }
 
 .post, .article-page {
+  width: 100%;
   background-color: #fff;
 }
 
@@ -1003,6 +1004,41 @@ table tfoot td {
 .about p {
   font-size: 16px;
   margin: 0 0 10px;
+}
+
+.category {
+  margin: 0 0 0 0px;
+  text-align: center;
+}
+
+.category ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0 0 0 10px;
+}
+
+.category .icon {
+  margin: 0 10px 0 0;
+}
+
+.category a:link { 
+  color:#333030; 
+  text-decoration: none;
+}  
+
+.category a:visited { 
+  color:#333030; 
+  text-decoration: none;
+} 
+
+.category a:hover { 
+  color:#333030; 
+  text-decoration: none;
+}
+
+.category a:active { 
+  color:#333030; 
+  text-decoration: none;
 }
 
 .content-box {

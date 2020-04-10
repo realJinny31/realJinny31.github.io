@@ -11,6 +11,22 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
     </div>
+    <div class="category">
+      <p>
+        <a href="{{ site.baseurl }}/tags">TAGS</a>
+      </p>
+      <p>
+        <a href="{{ site.baseurl }}/categories">CATEGORIES</a>
+      </p>
+      <ul>
+        {% for category in site.categories %}
+          <li>
+            <span class="icon">-</span>
+            <a href="{{ site.baseurl }}/categories/{{ category[0] }}">{{ category[0] }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
